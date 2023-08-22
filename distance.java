@@ -4,6 +4,7 @@ public class distance
 {
     /* Program that prompts users for and reads integer values for speed and distance traveled then prints the time required for trip as a floating point result
     time traveled = distance traveled / rate 
+    distance = speed x time
     */
       public static void main(String[] args)
     { 
