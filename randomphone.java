@@ -13,9 +13,17 @@ public class randomphone {
         Hint: Think through the easiest way to construct the phone number
         Each digit does not have to be determined separately.
         */
+
+
+    int phonepart_1, phonepart_2, phonepart_3;
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter 3 digits for the Area Code");
+    phonepart_1 = scan.nextInt();
+
+
     }
 
-    String phonepart_1, phonepart_2, phonepart_3;
     
+   
 
 }
