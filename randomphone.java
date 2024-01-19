@@ -1,4 +1,3 @@
-import java.util.Scanner;
 import java.util.Random;
 
 public class randomphone {
@@ -15,17 +14,20 @@ public class randomphone {
         */
 
 
+    Random generator = new Random();
     int phoneareacode, phonepart_2, phonepart_3;
-    Scanner scan = new Scanner(System.in);
-    System.out.println("Enter 3 digits for the Area Code");
-    phoneareacode = scan.nextInt();
-    System.out.println("Enter 3 digits for phone number");
-    phonepart_2 = scan.nextInt();
-    System.out.println("Enter 4 digits for phone number");
-    phonepart_3 = scan.nextInt();
+    
+    
+    phoneareacode = generator.nextInt(700) + 100;
+    
+    phonepart_2 = generator.nextInt(654) + 100;
+  
+    phonepart_3 = generator.nextInt(9000) + 1000;
 
     System.out.println("New Phone number is:" + phoneareacode + "-" + phonepart_2 + "-" + phonepart_3 );
-
+    
+    //System.out.println("area code:" + phoneareacode  );
+    //System.out.println("phone number:" + phonepart_2 + "-" + phonepart_3   );
 
     }
 
