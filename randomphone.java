@@ -14,7 +14,7 @@ public class randomphone {
         */
 
 
-    Random generator = new Random();
+     e
     int phoneareacode, phonepart_2, phonepart_3;
     
     
