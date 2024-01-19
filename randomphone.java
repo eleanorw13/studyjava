@@ -15,10 +15,16 @@ public class randomphone {
         */
 
 
-    int phonepart_1, phonepart_2, phonepart_3;
+    int phoneareacode, phonepart_2, phonepart_3;
     Scanner scan = new Scanner(System.in);
     System.out.println("Enter 3 digits for the Area Code");
-    phonepart_1 = scan.nextInt();
+    phoneareacode = scan.nextInt();
+    System.out.println("Enter 3 digits for phone number");
+    phonepart_2 = scan.nextInt();
+    System.out.println("Enter 4 digits for phone number");
+    phonepart_3 = scan.nextInt();
+
+    System.out.println("New Phone number is:" + phoneareacode + "-" + phonepart_2 + "-" + phonepart_3 );
 
 
     }
