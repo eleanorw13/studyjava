@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 import java.util.Random;
 
 public class float_to_whole {
@@ -12,11 +12,13 @@ public class float_to_whole {
     public static void main(String[] args) {
 
         Random generator = new Random();
-        double number;
-        number = generator.nextFloat();
+        double number1;
+        number1 = generator.nextFloat();
+        System.out.println("Random float number is" + number1);
+        number1 = Integer.parseInt();
         
+
         
-        System.out.println("Random float number is" + number);
 
 
 
