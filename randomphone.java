@@ -12,11 +12,10 @@ public class randomphone {
         Hint: Think through the easiest way to construct the phone number
         Each digit does not have to be determined separately.
         */
-
-
-     e
-    int phoneareacode, phonepart_2, phonepart_3;
     
+    Random generator = new Random();
+
+    int phoneareacode, phonepart_2, phonepart_3;
     
     phoneareacode = generator.nextInt(700) + 100;
     
@@ -24,10 +23,10 @@ public class randomphone {
   
     phonepart_3 = generator.nextInt(9000) + 1000;
 
-    System.out.println("New Phone number is:" + phoneareacode + "-" + phonepart_2 + "-" + phonepart_3 );
+   //System.out.println("New Phone number is:" + phoneareacode + "-" + phonepart_2 + "-" + phonepart_3 );
     
-    //System.out.println("area code:" + phoneareacode  );
-    //System.out.println("phone number:" + phonepart_2 + "-" + phonepart_3   );
+    System.out.println("area code:" + phoneareacode  );
+    System.out.println("phone number:" + phonepart_2 + "-" + phonepart_3   );
 
     }
 

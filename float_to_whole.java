@@ -1,6 +1,6 @@
 
 import java.util.Random;
-
+//import java.util.Scanner;
 public class float_to_whole {
 
     /*
@@ -11,18 +11,20 @@ public class float_to_whole {
 
     public static void main(String[] args) {
 
-        Random generator = new Random();
-        double number1;
-        number1 = generator.nextFloat();
-        System.out.println("Random float number is" + number1);
-        number1 = Integer.parseInt();
-        
+        Random generator = new Random() ;
+        float Number1;
+        Number1 = generator.nextFloat() * 30;
+       // Scanner MyNumber = new Scanner(System.in);
 
-        
+       // System.out.println("Enter Float Number");
+        //Number1 = MyNumber.nextFloat();
 
+       
 
-
-
+        System.out.println("largest number is" + " " + ((int)Number1 + 1) ); //increment   
+        System.out.println("float number is" + Number1);
+        System.out.println("smallest number is" + " " + ((int)Number1 - 1) );  //decrement
+       
         
     }
 
