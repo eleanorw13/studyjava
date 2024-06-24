@@ -7,20 +7,22 @@ public class arithmetic
     //-----------------------------------------------------------------
     public static void main(String[] args)
     {
-        float FirstNum;
-        float SecondNum;
+        int FirstNum;
+        int SecondNum;
+        int ThirdNum;
        
     
         Scanner MyNumber = new Scanner(System.in);
 
         System.out.println("Enter First Number");
-        FirstNum = MyNumber.nextFloat();
+        FirstNum = MyNumber.nextInt();
         System.out.println("Enter Second Number");
-        SecondNum = MyNumber.nextFloat();
+        SecondNum = MyNumber.nextInt();
+        System.out.println("Enter Third Number");
+        ThirdNum = MyNumber.nextInt();
 
-        
-        System.out.println("summation is: " + (FirstNum+SecondNum));
-        System.out.println("difference: " + (FirstNum-SecondNum));
-        System.out.println("product: " + (FirstNum*SecondNum));
+        System.out.println("summation is: " + (FirstNum+SecondNum+ThirdNum));
+        System.out.println("difference: " + (FirstNum-SecondNum-ThirdNum));
+        System.out.println("product: " + (FirstNum*SecondNum*ThirdNum));
     }
 }
